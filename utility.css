@@ -1,0 +1,43 @@
+.invert{
+    filter: invert(1);
+}
+.bg-gray{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+
+/* Webkit (Safari/Chrome) */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Dark color for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666; /* Darker color for the thumb */
+    border-radius: 5px;
+}
+
+/* Firefox */
+
+html {
+    scrollbar-color: #666 #333; /* Darker thumb on a dark track */
+}
+
+/* Internet Explorer */
+
+body {
+    scrollbar-base-color: #666; /* Darker color for the scrollbar */
+}

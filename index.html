@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>'Spotify - Web Player: Music for everyone'</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+
+        <div class="left">
+            <div class="close">
+                <img class="invert" src="close.svg" alt="">
+            </div>
+            <div class="home bg-gray rounded m-1 p-1 roboto-bold">
+                <div class="logo">
+                    <img width="100" class="invert" src="logo.svg" alt="">
+                </div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+
+            </div>
+
+            <div class="library bg-gray rounded m-1 p-1 roboto-bold">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+
+                    <h2>Your Library</h2>
+
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety & Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="right bg-gray rounded m-1 p-1">
+            <div class="header">
+                <div class="nav">
+
+                    <div class="hamburgerCon">
+
+                        <img width="40" class="invert hamburger" src="hamburger.svg" alt="">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M17 4L8.66943 10.0405C6.44352 11.6545 6.44353 12.3455 8.66943 13.9595L17 20"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M7 4L15.3306 10.0405C17.5565 11.6545 17.5565 12.3455 15.3306 13.9595L7 20"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+
+
+            <div class="Spotify-playlist">
+                <h2>Populer Singers</h2>
+                <div class="cardContainer">
+                    <!-- <div data-folder="cs" class="card">
+                        <div class="play">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="10" fill="green" />
+                                <polygon points="35,30 75,50 35,70" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab676161000051740261696c5df3be99da6ed3f3" alt="">
+                        <h3>Arijit Singh!</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="10" fill="green" />
+                                <polygon points="35,30 75,50 35,70" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab676161000051746220fc5e958ab498b96f5835" alt="">
+                        <h3>Vishal Mishra!</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="10" fill="green" />
+                                <polygon points="35,30 75,50 35,70" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174e1e00861cdb6bf56b14a1118" alt="">
+                        <h3>Darshan Raval!</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="10" fill="green" />
+                                <polygon points="35,30 75,50 35,70" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                        <h3>Pritam!</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="10" fill="green" />
+                                <polygon points="35,30 75,50 35,70" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="">
+                        <h3>A.R Rahman!</h3>
+                        <p>Artist</p>
+                    </div>
+
+
+
+                    <div class="card">
+                        <div class="play">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="10" fill="green" />
+                                <polygon points="35,30 75,50 35,70" fill="black" />
+                            </svg>
+
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="">
+                        <h3>Atif Aslam!</h3>
+                        <p>Artist</p>
+                    </div>
+ -->
+
+
+
+
+                </div>
+
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+
+
+                        <div class="songinfo">
+
+                        </div>  
+                        <div class="songbutton">
+                            <img id="previous" src="prevsong.svg" alt="">
+                            <img id="play" src="play.svg" alt="">
+                            <img id="next" src="nextsong.svg" alt="">
+
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime">
+
+                            </div>
+                            <div     class="volume">
+                                <img width="25px" src="volume.svg" alt="">
+
+                                <div class="range">
+                                    <input class="invert" type="range" name="volume" id="">
+                                </div>
+                               
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
